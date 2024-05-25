@@ -5,7 +5,7 @@ function App() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [profilePic, setProfilePic] = useState();
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false); //
 
   const responseGoogle = (response) => {
     console.log(response);
