@@ -42,11 +42,11 @@ function RessonanciaMagnetica() {
                     </h2>
                     <div className="pt-5 md:grid md:grid-cols-2">
 
-                        <div className="pb-5">
+                        <div className="flex pb-5 overflow-hidden justify-center">
                             <img src="./src/assets/doctor-looking-ct-scan.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[600px] 2xl:ml-32 xl:mx-10"/>
                         </div>
 
-                        <div>
+                        <div className="mr-20">
                             <p className="text-[18px] pb-4 text-justify pr-5 mx-3">
                                 Um exame de Raio-X é indicado em diversas situações clínicas para auxiliar no diagnóstico e A ressonância magnética é uma ferramenta indispensável no arsenal diagnóstico dos profissionais de saúde, proporcionando uma visão sem precedentes do interior do corpo humano. Sua capacidade de fornecer imagens detalhadas e precisas desempenha um papel fundamental no diagnóstico precoce e no tratamento eficaz de uma variedade de condições médicas. Alguns dos cenários em que é recomendado realizar um exame de Ressonância Magnética incluem:
                             </p>

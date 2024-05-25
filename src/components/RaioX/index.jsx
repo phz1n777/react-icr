@@ -42,11 +42,11 @@ function RaioX() {
                     </h2>
                     <div className="pt-5 md:grid md:grid-cols-2">
 
-                        <div className="pb-5">
+                        <div className="flex pb-5 overflow-hidden justify-center" >
                             <img src="./src/assets/bones.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[600px] 2xl:ml-32 xl:mx-10"/>
                         </div>
 
-                        <div>
+                        <div className="mr-20">
                             <p className="text-[18px] pb-4 text-justify pr-5 mx-3">Um exame de Raio-X é indicado em diversas situações clínicas para auxiliar no diagnóstico e avaliação de condições médicas. 
                             Alguns dos cenários em que é recomendado realizar um exame de Raio-X incluem:
                             </p>

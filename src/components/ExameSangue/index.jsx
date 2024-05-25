@@ -20,7 +20,7 @@ function ExameSangue() {
                     <h2 className="border-t-2 text-3xl xl:mx-60 md:mx-5 flex justify-center">
                         Sobre o exame
                     </h2>
-                    <div className="pt-5 md:grid md:grid-cols-2">
+                    <div className="pt-5 md:grid md:grid-cols-2 ml-28">
                         <p className="text-justify xl:ml-32 mx-3 sm:mx-5 text-[18px]">
                         O exame de sangue é uma ferramenta fundamental no campo da medicina, oferecendo insights valiosos sobre a saúde e o bem-estar do paciente. Este procedimento simples e amplamente utilizado fornece uma riqueza de informações que os profissionais de saúde podem usar para diagnosticar condições médicas, monitorar tratamentos e prevenir doenças.
                         <br />
@@ -29,7 +29,7 @@ function ExameSangue() {
                         Esses átomos, quando expostos ao campo magnético, alinham-se em uma direção específica. Quando as ondas de rádio são desligadas, os átomos liberam energia e voltam ao seu estado original, produzindo sinais detectáveis por antenas especiais. Esses sinais são processados por computadores para criar imagens detalhadas dos órgãos, músculos, ossos e outras estruturas internas.
                         </p>
 
-                        <div className="pb-5 w-auto">
+                        <div className="pb-5 w-auto mr-14">
                             <img src="./src/assets/exame-de-sangue.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[500px] w"/>
                         </div>
                     </div>
@@ -42,11 +42,11 @@ function ExameSangue() {
                     </h2>
                     <div className="pt-5 md:grid md:grid-cols-2">
 
-                        <div className="pb-5">
+                        <div className="flex pb-5 overflow-hidden justify-center w-auto">
                             <img src="./src/assets/coronavirus-blood-samples-assortment-lab.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[600px] 2xl:ml-32 xl:mx-10"/>
                         </div>
 
-                        <div className="">
+                        <div className="mr-20">
                             <p className=" text-[18px] pb-4 text-justify pr-5 mx-3">
                                 O exame de sangue desempenha um papel crucial na prevenção, diagnóstico e tratamento de uma ampla gama de condições médicas.
                             </p>
